@@ -14,7 +14,7 @@ form.addEventListener('submit', (e) => {
     console.log("Comparison Result:", userInput.toLowerCase() === secretCode.toLowerCase());
 
     if (userInput.toLowerCase() === secretCode.toLowerCase()) {
-        resultDiv.innerHTML = 'Devanshi';
+        resultDiv.innerHTML = 'Devanshi';	
         setTimeout(() => {
             window.location.href = nextPageUrl; // Redirect after a slight delay
         }, 500);
